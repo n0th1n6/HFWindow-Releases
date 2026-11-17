@@ -4,11 +4,11 @@ HF propagation planning for Android.
 
 ## Download
 
-[Download HF Window 1.0.3 APK](https://github.com/n0th1n6/HFWindow-Releases/releases/download/v1.0.3/HF-Window-1.0.3-debug.apk)
+[Download HF Window 1.0.4 APK](https://github.com/n0th1n6/HFWindow-Releases/releases/download/v1.0.4/HF-Window-1.0.4-release.apk)
 
 [All releases](https://github.com/n0th1n6/HFWindow-Releases/releases)
 
-Android 8.0 or newer with a current Android System WebView is required. This is a debug-signed testing build. Install it with the Android package installer; it can update earlier HF Window testing builds signed with the same certificate.
+Android 8.0 or newer with a current Android System WebView is required. This is a non-debuggable release build signed with the dedicated HF Window certificate. Install it with the Android package installer. **If you installed a testing APK through 1.0.3, uninstall that app first:** its debug signature differs, and uninstalling removes its saved settings. Future release APKs signed with the same release certificate can update 1.0.4 normally.
 
 ## Features
 
