@@ -1,30 +1,20 @@
 # HF Window
 
-HF propagation planning for Android.
-
-## Download
-
-[Download HF Window 1.0.4 APK](https://github.com/n0th1n6/HFWindow-Releases/releases/download/v1.0.4/HF-Window-1.0.4-release.apk)
-
-[All releases](https://github.com/n0th1n6/HFWindow-Releases/releases)
-
-Android 8.0 or newer with a current Android System WebView is required. This is a non-debuggable release build signed with the dedicated HF Window certificate. Install it with the Android package installer. **If you installed a testing APK through 1.0.3, uninstall that app first:** its debug signature differs, and uninstalling removes its saved settings. Future release APKs signed with the same release certificate can update 1.0.4 normally.
-
 ## Features
 
-- Seven-day HF planning outlook with ranked operating windows.
+- Seven-day HF propagation planning estimates with ranked operating windows.
 - Eight amateur HF bands from 80 m through 10 m.
-- Transmitting and listening coordinates, path distance and bearing.
-- Country labels, map zoom/pinch, panning, and exact map-point selection.
-- Country-name shortcuts to capital or administrative-seat coordinates.
-- Saved station settings, NOAA solar flux/Kp refresh, manual offline scenarios, and CSV export.
+- Station and listening coordinates, path distance, and bearing.
+- Country labels, up to 16× map zoom, pinch zoom, panning, and reset view.
+- Tap a country name for its capital coordinates, or elsewhere for the selected point.
+- Saved station settings, NOAA solar flux and Kp refresh, manual offline scenarios, and CSV export.
 
-## Prediction limits
+## How to install
 
-Scores are experimental relative planning estimates, not contact probabilities or calibrated VOACAP forecasts. Solar flux is held constant; times beyond available NOAA Kp coverage use the manual scenario. Verify conditions on the air.
+Requires Android 8.0 or newer and a current Android System WebView.
 
-## About this repository
+If you installed testing version 1.0.3 or earlier, uninstall it first. Uninstalling removes saved settings.
 
-This public repository distributes APK binaries, checksums and release information. Application development is maintained in a separate private repository. The APK is a hybrid application and includes its bundled HTML, JavaScript and map assets.
-
-Map and base capital coordinates: [Natural Earth](https://www.naturalearthdata.com/). Space-weather data: [NOAA SWPC](https://www.swpc.noaa.gov/).
+1. [Download the APK](https://github.com/n0th1n6/HFWindow-Releases/releases/download/v1.0.4/HF-Window-1.0.4-release.apk) on your Android device.
+2. Open the downloaded APK. If prompted, allow your browser or file manager to install apps.
+3. Tap **Install**, then **Open**.
